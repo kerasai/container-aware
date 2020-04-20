@@ -1,5 +1,5 @@
 {
-    "name": "kerasai/composer-aware",
+    "name": "kerasai/container-aware",
     "description": "Tooling inject container into services.",
     "type": "library",
     "authors": [
