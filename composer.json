@@ -1,0 +1,22 @@
+{
+    "name": "kerasai/composer-aware",
+    "description": "Tooling inject container into services.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Will Long",
+            "email": "will@kerasai.com"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "^4.4"
+    },
+    "require-dev": {
+        "consolidation/robo": "~1",
+        "kerasai/robo-phpcs": "^0.0.4",
+        "drupal/coder": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {"Kerasai\\ContainerAware\\": "src/"}
+    }
+}
